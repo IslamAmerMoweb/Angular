@@ -1,0 +1,13 @@
+main {
+  background-color: rgb(15, 178, 91);
+  height: 100vh;
+  margin-block-end: 2rem;
+}
+
+figure img {
+  width: 20%;
+}
+
+main h1 {
+  font-size: 60px;
+}

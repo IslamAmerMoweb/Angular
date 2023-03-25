@@ -1,0 +1,77 @@
+main {
+  margin-top: 5rem;
+}
+
+main .container .star::after,
+main .container .star::before {
+  background-color: #000;
+}
+
+main .container form textarea,
+main .container form input:focus {
+  outline: unset;
+}
+
+main .container form textarea {
+  border: unset;
+  border-bottom: 1px solid #8080802e;
+  height: 250px;
+  padding-left: 20px;
+  resize: none;
+}
+
+main .container form input {
+  padding: 20px;
+  border: unset;
+  margin-block: 1rem;
+  border-bottom: 1px solid #8080802e;
+}
+
+main .container form textarea,
+main .container form input::placeholder {
+  font-size: 25px;
+}
+
+main button {
+  width: 100px;
+  padding: 15px;
+  background-color: rgb(13, 201, 119);
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  float: left;
+  margin-left: 20px;
+  margin-block: 3rem;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  list-style: none;
+  color: #fff;
+}
+
+main section {
+  height: 40vh;
+  margin-top: 4rem;
+  text-align: center;
+  padding-block: 5rem;
+  background-color: #1c1414;
+}
+
+main section p {
+  font-size: 25px;
+}
+
+main section .around .social span {
+  font-size: 30px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin-inline: 10px;
+  margin-top: 1rem;
+}

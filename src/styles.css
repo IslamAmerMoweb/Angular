@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+.star {
+  font-size: 30px;
+  position: relative;
+}
+
+.star::before {
+  left: 50%;
+  transform: translate(-130%, -50%);
+}
+
+.star::before,
+.star::after {
+  content: "";
+  background-color: #fff;
+  width: 130px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  border-radius: 5px;
+}
+
+.star::after {
+  left: 50%;
+  transform: translate(30%, -50%);
+}
+
+.hstyle {
+  font-size: 50px;
+  font-weight: 700;
+}
